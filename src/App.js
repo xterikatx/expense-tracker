@@ -1,22 +1,21 @@
 import "./App.css";
+import { AddNewTransaction } from "./components/AddNewTransaction";
+import { Balance } from "./components/Balance";
+import { CardExpenses } from "./components/CardExpenses";
+import { Header } from "./components/Header";
+import { TransactionList } from "./components/TransactionList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <Balance />
+        <CardExpenses />
+        <TransactionList />
+        <AddNewTransaction />
+      </div>
+    </>
   );
 }
 
