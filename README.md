@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# DEMO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DEMO VERSION [HERE](https://expense-tracker-n6no4y22w-erikalopes.vercel.app/).
 
 ## Available Scripts
 
